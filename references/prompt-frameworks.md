@@ -123,6 +123,20 @@ Use these compact patterns when the user names a specific deliverable.
 - **Collectible / plush / keychain**: specify product form, packaging or display base, materials, scale, cute/detail level, and centered catalog presentation.
 - **Children's book art**: specify age range, emotional tone, medium, character consistency, safe composition, simple readable action, and warm color palette.
 
+## Short film / Animation pre-production
+
+GPT Image 2 makes stills, not motion. Use it for concept art, key frames, style frames, storyboard panels, character model sheets, and background layouts that drive the actual film or animation production.
+
+Default to a cinematic look for both live-action shorts and animated work — including 2D and 3D animation. Treat animation frames as if a real cinematographer shot them: motivated lighting, shallow depth of field with a clear focus subject and soft out-of-focus background, lens-based framing, atmosphere/haze, and film-grade color. Do **not** default to flat children's-cartoon styling unless the user explicitly asks for it.
+
+- **Live-action short film key frame / style frame**: state the beat in one sentence (who, doing what, feeling what), then add `35mm/16mm film still`, lens (e.g. `35mm anamorphic, T2.0`), shallow depth of field with the focus subject named, motivated light source, time of day, weather, color palette, foreground/midground/background layers, film stock or grain, and aspect ratio (e.g. `2.39:1`).
+- **Animated key frame / style frame (cinematic)**: pick a clear style anchor — `painterly 2D animation in the style of Arcane`, `Spider-Verse-style stylized 3D rendered as 2D`, `modern Ghibli-inspired 2D with hand-painted backgrounds`, `Pixar-grade stylized 3D`, `cel-shaded 3D with line work`, etc. Then keep the cinematic slots: lens-equivalent framing (`equivalent to a 50mm lens`), shallow depth of field with named focus subject and softly blurred background (`bokeh background`, `defocused background`), motivated lighting, atmosphere/volumetric light, color script palette, and aspect ratio (`2.39:1` or `1.85:1`). Avoid flat lighting, flat color fills, sticker-like outlines, and "children's cartoon" descriptors.
+- **Storyboard panel / sequence**: define panel count, panel order, recurring character identity anchors, action beat per panel, camera move written as text (`push in`, `whip pan`, `dolly out`, `rack focus from A to B`), shot size (`WS`, `MS`, `CU`, `OTS`), and aspect ratio. Keep depth and composition consistent across panels.
+- **Character model sheet (animation)**: turnaround views (front, 3/4, side, back), neutral T-pose or relaxed pose, expression sheet (neutral, happy, angry, surprised, sad), prop callouts, height/scale comparison line, flat even lighting **only here** for reference clarity, plus a separate "in-world cinematic portrait" frame that uses the chosen film look.
+- **Background / layout art**: wide environment plate built for camera moves and characters to be added later; specify perspective lines, vanishing point, layered depth (foreground silhouette, midground action area, background atmosphere), light direction, time of day, and clean negative space where characters will be staged.
+- **Color script frame**: one image per story beat that locks the palette and mood progression for a sequence; specify beat label, dominant palette, emotional shift from previous beat, and a single composition anchor.
+- **Sequence consistency anchors**: when generating multiple frames of the same world or character, repeat identity anchors verbatim (face, costume, palette, lens/lighting recipe, aspect ratio) and explicitly say `keep these unchanged across frames`.
+
 ## Iteration by subtraction
 
 When output drifts, locate the missing slot:
