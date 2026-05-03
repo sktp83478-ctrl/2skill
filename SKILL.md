@@ -1,6 +1,6 @@
 ---
 name: gpt-image-2
-description: Use when the user wants GPT Image 2 / GPT-Image-2.0 prompt design, reverse prompting, image editing guidance, reference-image workflows, or production-ready visual prompts for posters, thumbnails, product shots, characters, book covers, ads, UI mockups, infographics, diagrams, charts, comics, logos, and cinematic images.
+description: Use when the user wants GPT Image 2 / GPT-Image-2.0 prompt design, reverse prompting, image editing guidance, reference-image workflows, or production-ready visual prompts for posters, thumbnails, product shots, characters, book covers, ads, UI mockups, infographics, diagrams, charts, comics, logos, cinematic images, and short film / animation pre-production stills (key frames, style frames, storyboards, character model sheets, background layouts).
 ---
 
 # GPT Image 2
@@ -36,7 +36,7 @@ Keep slots short, concrete, and non-overlapping. The PDF experiments show qualit
 
 ## Workflow
 
-1. Identify the use case: portrait, cinematic still, poster, thumbnail, product shot, character concept, novel/book cover, ad banner, UI/mockup, infographic, logo, comic strip, slide/diagram/chart, educational visual, or edit/reference workflow.
+1. Identify the use case: portrait, cinematic still, poster, thumbnail, product shot, character concept, novel/book cover, ad banner, UI/mockup, infographic, logo, comic strip, slide/diagram/chart, educational visual, short film / animation pre-production frame (key frame, style frame, storyboard panel, character model sheet, background layout, color script), or edit/reference workflow.
 2. Convert vague requests into the slot stack. Ask at most one clarification only if the missing detail changes the medium or deliverable.
 3. For text in the image, quote the exact text and specify placement, font style, surface integration, and "no extra text".
 4. For realism, specify capture language: camera/film/lens, lighting source, material texture, depth of field, color palette, and practical constraints.
@@ -47,7 +47,7 @@ Keep slots short, concrete, and non-overlapping. The PDF experiments show qualit
 
 ## Specialized use cases
 
-For infographics, translation-in-image, natural photoreal, logos, ads, comics, UI mockups, scientific visuals, slides, diagrams, charts, style transfer, virtual try-on, drawing-to-image, product mockups, real-text marketing creatives, lighting/weather edits, object removal, person insertion, multi-image compositing, interior swaps, collectibles, and children's book art, read `references/prompt-frameworks.md`.
+For infographics, translation-in-image, natural photoreal, logos, ads, comics, UI mockups, scientific visuals, slides, diagrams, charts, style transfer, virtual try-on, drawing-to-image, product mockups, real-text marketing creatives, lighting/weather edits, object removal, person insertion, multi-image compositing, interior swaps, collectibles, children's book art, and short film / animation pre-production frames (cinematic key frames, style frames, storyboards, character model sheets, background layouts, color scripts), read `references/prompt-frameworks.md`. Animation frames default to a cinematic look — shallow depth of field, motivated lighting, lens-based framing, and a defined style anchor (e.g. Arcane-style painterly 2D, Spider-Verse-style stylized 3D, modern Ghibli-inspired 2D, Pixar-grade stylized 3D) — not flat children's-cartoon styling, unless the user asks for it.
 
 ## API notes are secondary
 
